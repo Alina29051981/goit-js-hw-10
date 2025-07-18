@@ -4,25 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page 2</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Timer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    
   </head>
   <body>
-    <load
-      src="./partials/header.html"
-      icon-path="./img/sprite.svg#logo"
-      highlight-act="active"
-    />
-
+   
     <main>
-      <div class="container">
-        <h1 class="main-title">
-          <span class="main-title-gradient">Welcome</span> to page 2
-        </h1>
-        <load src="./partials/back-link.html" />
+      <div class="time">
+        <input class="timer-datatime" type="text" id="datetime-picker" />
+  <button class="timer-button" type="button" data-start disabled>Start</button>
+  
       </div>
+<div class="timer">
+  <div class="field">
+    <span class="value" data-days>00</span>
+    <span class="label">Days</span>
+  </div>
+  <div class="field">
+    <span class="value" data-hours>00</span>
+    <span class="label">Hours</span>
+  </div>
+  <div class="field">
+    <span class="value" data-minutes>00</span>
+    <span class="label">Minutes</span>
+  </div>
+  <div class="field">
+    <span class="value" data-seconds>00</span>
+    <span class="label">Seconds</span>
+  </div>
+</div>
+ <load src="./partials/back-link.html" /> 
     </main>
-
-    <load src="./partials/footer.html" />
-  </body>
+ <script type="module" src="/js/1-timer.js"></script>
+     </body>
 </html>
