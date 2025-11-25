@@ -19,6 +19,7 @@ The project is built with Vite and uses flatpickr and iziToast libraries.
 ![Made with Love](https://img.shields.io/badge/Made%20with-%E2%99%A5-red)
 
 # Countdown Timer
+[GitHub Pages Link-1](https://alina29051981.github.io/goit-js-hw-10/1-timer.html) 
 
 Features
 - Implementation of a countdown timer linked to a user-selected date.
@@ -32,6 +33,7 @@ Features
 - Input becomes disabled while the timer is running to prevent new selections.
 
 # Promise Generator
+[GitHub Pages Link-2](https://alina29051981.github.io/goit-js-hw-10/1-timer.html) 
 
 Features
 - Form submission intercepted with event.preventDefault().
